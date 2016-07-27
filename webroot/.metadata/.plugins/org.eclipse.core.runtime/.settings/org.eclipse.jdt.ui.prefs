@@ -1,0 +1,22 @@
+#Wed Jul 13 17:33:25 JST 2016
+semanticHighlighting.parameterVariable.enabled=true
+stickyOccurrences=false
+content_assist_proposals_foreground=0,0,0
+spelling_locale_initialized=true
+semanticHighlighting.localVariableDeclaration.color=0,128,0
+semanticHighlighting.localVariable.enabled=true
+semanticHighlighting.parameterVariable.color=255,0,0
+semanticHighlighting.localVariableDeclaration.enabled=true
+useAnnotationsPrefPage=true
+eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+tabWidthPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
+fontPropagated=true
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+semanticHighlighting.localVariableDeclaration.bold=true
+content_assist_proposals_background=255,255,255
+org.eclipse.jdt.ui.formatterprofiles.version=11
+useQuickDiffPrefPage=true
+semanticHighlighting.localVariable.color=0,128,0

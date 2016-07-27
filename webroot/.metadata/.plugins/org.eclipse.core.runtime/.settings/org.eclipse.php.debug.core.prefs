@@ -1,0 +1,7 @@
+#Thu Jul 14 09:40:49 JST 2016
+org.eclipse.php.debug.coreinstalledPHPInis=null;C\:\\usr\\kis_php_pkg_ver1.1\\xampp\\apache\\bin\\php.ini
+org.eclipse.php.debug.coreinstalledPHPDebuggers=org.eclipse.php.debug.core.zendDebugger;org.eclipse.php.debug.core.zendDebugger
+org.eclipse.php.debug.coreinstalledPHPDefaults=org.eclipse.php.debug.core.zendDebugger\=PHP 5 (CLI)
+eclipse.preferences.version=1
+org.eclipse.php.debug.coreinstalledPHPLocations=C\:\\usr\\kis_php_pkg_ver1.1\\xampp\\php\\php4\\php.exe;C\:\\usr\\kis_php_pkg_ver1.1\\xampp\\php\\php.exe
+org.eclipse.php.debug.coreinstalledPHPNames=PHP 4 (CGI);PHP 5 (CLI)
