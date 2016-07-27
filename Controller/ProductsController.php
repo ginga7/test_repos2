@@ -218,7 +218,9 @@ class ProductsController extends AppController {
 			$this->Flash->error(__('むりむり'));
 		}
 	}
-
+/*
+ * 自動で落札判定をチェックする際にしようされる
+ */
 	public function updateStateAuto($id,$state){
 		$this->autoRender = false;
 		$results['Product']['product_id'] = $id;

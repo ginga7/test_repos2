@@ -10432,3 +10432,45 @@ java.lang.NullPointerException
 	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
 	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:105)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-07-27 11:27:48.461 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2016-07-27 11:28:33.106
+!MESSAGE プラグイン 'org.eclipse.wst.jsdt.web.ui' から 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' 拡張ポイントへの 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.JSPJavaHyperlinkDetector' 拡張は無効な属性を含むため無視されます。
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2016-07-27 11:28:33.106
+!MESSAGE プラグイン 'org.eclipse.wst.jsdt.web.ui' から 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' 拡張ポイントへの 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.event.JSPJavaHyperlinkDetector' 拡張は無効な属性を含むため無視されます。
+
+!ENTRY org.eclipse.jface 2 0 2016-07-27 11:28:44.140
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-07-27 11:28:44.140
+!MESSAGE CTRL+SHIFT+T の競合が発生しました:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.php.ui.navigate.open.type,型を開く,
+		Open an editor for a particular Type,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-27 11:28:47.705
+!MESSAGE NLS missing message: DebugConnectionThread_oldDebuggerVersion in: org.eclipse.php.internal.debug.core.PHPDebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-27 11:28:47.705
+!MESSAGE NLS missing message: DebugServerTestEvent_success in: org.eclipse.php.internal.debug.core.PHPDebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2016-07-27 11:28:47.720
+!MESSAGE NLS missing message: DebugServerTestEvent_timeOutMessage in: org.eclipse.php.internal.debug.core.PHPDebugCoreMessages
